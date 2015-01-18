@@ -4,8 +4,8 @@ PRODUCT_BRAND ?= simpleaosp
 # Local path for prebuilts
 LOCAL_PATH := vendor/simpleaosp/prebuilts/common/system
 
-# Block based ota zip default to on
-TARGET_USES_BLOCK_BASED_OTA := true
+# Block based ota zip default to off
+TARGET_USES_BLOCK_BASED_OTA := false
 
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
