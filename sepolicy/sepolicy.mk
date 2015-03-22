@@ -11,4 +11,5 @@ BOARD_SEPOLICY_UNION += \
     system.te \
     app.te \
     bootanim.te \
-    zygote.te
+    zygote.te \
+    service_contexts
