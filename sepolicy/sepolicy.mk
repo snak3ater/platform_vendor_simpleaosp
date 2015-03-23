@@ -7,7 +7,9 @@ BOARD_SEPOLICY_DIRS += \
 
 BOARD_SEPOLICY_UNION += \
     file.te \
+    mediaserver.te \
     file_contexts \
+    seapp_contexts \
     system.te \
     app.te \
     bootanim.te \
